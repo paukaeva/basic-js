@@ -16,7 +16,7 @@ describe('Dream team', () => {
     it.optional('function createDreamTeam exists', () => {
       expect(createDreamTeam).to.exist;
       expect(createDreamTeam).to.be.instanceOf(Function);
-    });
+    }); 
   });
 
   //Specific requirements
